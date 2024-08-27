@@ -1,7 +1,7 @@
 import commands from "./commands.js";
 import executors from "./executors.js";
 import { error, render } from "./helpers.js";
-const shortcuts = JSON.parse(localStorage.getItem("shortcuts");
+const shortcuts = JSON.parse(localStorage.getItem("shortcuts"));
 
 const input = document.getElementById("input");
 const output = document.getElementById("output");
