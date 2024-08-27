@@ -1,5 +1,5 @@
 import { dateDiffInMinutes, error, getWeather, render } from "./helpers.js";
-const shortcuts = JSON.parse(localStorage.getItem("shortcuts");
+const shortcuts = JSON.parse(localStorage.getItem("shortcuts"));
 export default {
   motd: () => {
     let cachedQuote = localStorage.getItem("cachedQuote");
